@@ -1,0 +1,54 @@
+td.środek {
+    text-align: center;
+}
+table.tblśrodek {
+    margin: auto;
+}
+table#tbl {
+    background-color: #0e46f0;
+}
+dd > b {
+    color: lightsalmon;
+}
+img.zdjecie {
+    max-width: 300px;
+    max-height: 300px;
+}
+p.info {
+    font-family: 'Courier New', Courier, monospace;
+}
+p.interlinia {
+    line-height: 100px;
+}
+h1 {
+    size: 30px;
+}
+h3 {
+    text-shadow:2px 3px 6px red; 
+}
+a:active {
+    color:mediumseagreen
+}
+a {
+    color:crimson
+}
+a:hover {
+    color: palevioletred;
+}
+a:visited {
+    color:darkolivegreen
+}
+h3#film {
+    text-transform: uppercase ;
+}
+.role {
+    color: red;
+}
+table
+   {
+   border: 1px solid black;
+   border-collapse: collapse;
+    }
+table.kropki {
+    border: 3px dotted black;
+}

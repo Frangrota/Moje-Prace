@@ -1,0 +1,30 @@
+.środek {
+    max-width: 100%;
+    background-color: teal;
+    margin: auto;
+    text-align: center;
+}
+
+.Pudło {
+    height: auto;
+    width: auto;
+    background-color: black;
+    margin: auto;
+}
+
+.Pudełeczko {
+    margin-top: 10px;
+    width: 20%;
+    height: 20%;
+    float: left;
+    margin: 1%;
+    background-color: teal;
+}
+
+p {
+    max-width:150px
+}
+
+#guzik {
+    position: fixed;
+}

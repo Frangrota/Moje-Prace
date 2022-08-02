@@ -1,0 +1,120 @@
+table {
+    border: 2px solid; color: black;
+    padding: 5px;
+    border-collapse: collapse;
+}
+
+.główna {
+    border: 1px solid transparent; color: black; 
+    border-collapse: separate;
+    text-align: center;
+    border-spacing: 20px 5px;
+}
+
+h1 {
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif
+}
+
+img {
+    max-height: 275px;
+    max-width: 275px;
+}
+th, td {
+    /* Ustawia kolor, szerokość i rodzaj obramówki dla wierszy i kolumn */
+    border: 1px solid; color: black;
+    border-collapse: separate;
+    background-color:lightsteelblue;
+}
+
+#okładka {
+    max-width: 1000px;
+    max-height: 500px;
+}
+
+#nagłówek {
+    color: maroon;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    /* Wyśrodkowuje tekst */
+    text-align: center; 
+}
+
+#wcięcie {
+    text-indent: 3%;
+    text-decoration: justify;
+}
+
+p {
+    background-color: beige;
+}
+
+#wyśrodkuj {
+    text-align: center;
+}
+
+#Obsada {
+    border: dotted 1px black;
+    padding: 5px;
+    text-align: center;
+    border-collapse: collapse;
+    overflow: scroll;
+}
+
+.pad_mały {
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+.pad_duży {
+    padding: 20px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+th > img {
+    max-height: 200px;
+    max-width: 200px;
+}
+
+#obsada_scroll {
+    width: 500px;
+    height: 413px;
+    overflow: scroll;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    border: 40px solid transparent;
+    border-image-source: url(../img/frame.png);
+    border-image-slice: 100;
+    overflow-y: hidden;
+}
+
+.człowiek {
+    list-style-image:url(../img/man-silhouette.png);    
+    margin-left: 5px;
+}
+
+.mid {
+    padding-bottom: 20px;
+}
+
+.stopklatka {
+    list-style-image: url(../img/film.png);
+    margin-left: 15px;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+[title="filmy"] {
+cursor: help;
+}
+
+table:hover {
+    cursor:url(../img/director.png),auto
+}
+
+table:nth-child(odd) {
+    background-color: pink;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="../css/css.css">
+</head>
+
+<body>
+    <span><a href="">Home</a>: : Login</span>
+
+    <h2>Welcome, Please Sign In</h2>
+
+    <fieldset>
+        <legend>Returning Customers: Please Log In</legend>
+        <p>Email Address:
+            <input type="email" name="email" size="30">
+        </p>
+        <p>Password:
+            <input type="password" name="password" size="34">
+        </p>
+    </fieldset>
+    <br>
+    <a href="">Forgot your password?</a>
+    <br><br><br>
+    <fieldset>
+        <legend>New? Please Provide Your Billing Information</legend>
+        <br>
+        <p>Create a login profile with <b>OSC DEMO</b> which allows you to shop faster, track <br>
+            the status of your current orders and review your previous orders.</p>
+        <p class="req-p">* Required information</p>
+        <fieldset>
+            <legend>Company Details</legend>
+            <p>Company Name:
+                <input type="text" name="company" size="25">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Address Details</legend>
+            <p>
+                <input type="radio" name="genre" value="Mr." required>
+                Mr.
+                <input type="radio" name="genre" value="Ms." required>
+                Ms.<span id="req">*</span>
+            </p>
+            <p>First Name:
+                <input type="text" name="name" size="25" required>
+                <span id="req">*</span>
+            </p>
+            <p>Last Name:
+                <input type="text" name="surname" size="25" required>
+                <span id="req">*</span>
+            </p>
+            <p>Street Address:
+                <input type="text" name="address" size="30" required>
+                <span id="req">*</span>
+            </p>
+            <p>Address Line 2:
+                <input type="text" name="address2" size="25">
+            </p>
+            <p>City:
+                <input type="text" name="city" size="25" required>
+                <span id="req">*</span>
+            </p>
+            <p>State/Province:
+                <input type="text" name="state" size="25" required>
+                <span id="req">*</span>
+            </p>
+            <p>Post/Zip Code:
+                <input type="text" name="postcode" size="10" required>
+                <span id="req">*</span>
+            </p>
+            <p>Country:
+                <select name="country" required>
+                    <option value="poland">Poland</option>
+                    <option value="usa">United States</option>
+                    <option value="azerbeijan">Azerbeijan</option>
+                </select>
+                <span id="req">*</span>
+            </p>
+
+        </fieldset>
+    </fieldset>
+</body>
+
+</html>

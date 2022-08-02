@@ -1,0 +1,273 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Header {
+    background-color: #2B2D33;
+    font-size: 30px;
+    padding: 1%;
+    text-align: left;
+}
+
+h1 {
+    color: #00CCCC;
+    letter-spacing: 10px;
+    display: inline-block;
+    margin: 25px 10px;
+    z-index: 0;
+    word-spacing: 50px;
+}
+
+.Logo {
+    margin-top: -5%;
+    margin-left: 13%;
+}
+
+.Scenery {
+    float: left;
+    border: 5px solid black;
+    width: 733px;
+    height: 265px;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #00CCCC;
+    word-spacing: 20px;
+}
+
+li {
+    display: inline;
+}
+
+.Nav {
+    float: right;
+    border-bottom: 5px solid #00CCCC;
+    padding-bottom: 10px;
+    margin-top: -4%;
+}
+
+.Bottom {
+    background-color: #2B2D33;
+    padding: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 30%;
+}
+
+.line {
+    background-color: #00CCCC;
+    margin-left: 0%;
+    margin-right: 2%;
+    height: 15%;
+    text-align: center;
+    position: sticky;
+    margin-top: 13%;
+    text-align: center;
+}
+
+.border {
+    width: 100%;
+    height: 20px;
+    border: 0px solid #2B2D33;
+    border-top: 10% solid transparent;
+    border-image: url(../img/border.png);
+    border-image-slice: 20 20 20 20;
+    background-color: #2B2D33;
+}
+
+.Nav span {
+    border-bottom: 5px white solid !important;
+    padding-bottom: 10px;
+    color: white;
+    z-index: 2
+}
+
+.lorem {
+    float: left;
+    line-height: 30px;
+    color: #2B2D33;
+    font-size: xx-large;
+    text-align: left;
+    margin-left: 1%;
+    
+}
+
+.Features span {
+    border-bottom: 0px solid transparent;
+    color: white !important;
+}
+
+.Features th {
+    background-color: #2B2D33;
+    color:#00CCCC;
+    border: black 3px solid;
+    border-collapse: collapse;
+}
+
+.Features {
+    border: black 3px solid;
+    border-collapse: collapse;
+    font-size: 40px;
+    
+}
+
+.Features tr {
+    border: black 3px solid;
+    border-collapse: collapse;
+}
+
+.Features td {
+    background-color: #00CCCC;
+    color: #2B2D33;
+}
+
+.Table {
+    float: right;
+    margin-right: 15%;
+    margin-top: 1%;
+    height: 265px;
+    font-size: large;
+}
+
+.bottomleft {
+    border-left: #00CCCC 5px solid;
+    color: #00CCCC;
+    padding: 10px;
+    padding-left: 30px;
+    font-size: larger;
+    float: left;
+    text-align: left;
+    margin-left: 3%;
+}
+
+.bottommid {
+    border-left: #00CCCC 5px solid;
+    color: #00CCCC;
+    padding: 10px;
+    padding-left: 30px;
+    font-size: larger;
+    float: left;
+    text-align: left;
+    margin-left: 33%;
+}
+
+.bottomright {
+    border-left: #00CCCC 5px solid;
+    color: #00CCCC;
+    padding: 10px;
+    padding-left: 30px;
+    font-size: larger;
+    float: left;
+    text-align: left;
+    margin-left: 25%;
+}
+
+.bottommid span {
+    color: white;
+}
+
+@media only screen and (max-width: 750px) {
+    .Logo {
+        margin-top: -15%;
+        margin-left: 5%;
+    }
+    .Header {
+        background-color: #2B2D33;
+        font-size: 15px;
+        padding: 1%;
+        text-align: left;
+        width: 100%;
+    }
+    h1 {
+        color: #00CCCC;
+        letter-spacing: 5px;
+        display: inline-block;
+        margin-left: 22%;
+        z-index: 0;
+        word-spacing: 0px;
+        max-width: 100px;
+    }
+    .Nav {
+        float: right;
+        padding-bottom: 10px;
+        border-bottom: 0px solid black ;
+        margin-top: -8%;
+    }
+    .Nav span {
+        border-bottom: 0px white solid !important;
+        padding-bottom: 10px;
+        color: white;
+        z-index: 2
+    }
+    .Scenery {
+        float: left;
+        border: 0px solid black;
+        width: 750px;
+        height: 265px;
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+    .Features span {
+        border-bottom: 0px solid transparent;
+        color: white !important;
+    }
+    
+    .Features th {
+        background-color: #2B2D33;
+        color:#00CCCC;
+        border: black 0px solid;
+        border-collapse: collapse;
+        width: 100%;
+    }
+    
+    .Features {
+        border: black 0px solid;
+        border-collapse: collapse;
+        font-size: 40px;
+        width: 100%;
+        
+    }
+    
+    .Features tr {
+        border: black 0px solid;
+        border-collapse: collapse;
+        width: 100%;
+    }
+    
+    .Features td {
+        background-color: #00CCCC;
+        color: #2B2D33;
+        width: 100%;
+    }
+    
+    .Table {
+        float: right;
+        margin-right: 0%;
+        margin-top: 0%;
+        height: 265px;
+        font-size: medium;
+        width: 100%;
+    }
+    .Bottom {
+        background-color: #2B2D33;
+        padding: 1%;
+        font-family: Arial, Helvetica, sans-serif;
+        position: unset;
+        float: left;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 10%;
+    }
+
+}
